@@ -1,2 +1,2 @@
 # docs
-Documentation for the agnos.ai project
+Documentation for the agno.ai project
