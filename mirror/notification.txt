@@ -1,3 +1,9 @@
+#
+# Describes how to use notifications
+#
+
+
+
 ######### For sending ###########
 Call this when needed:
     self.sendNotification("MMM_MODULE_NAME", <payload (AnyObject)>);
