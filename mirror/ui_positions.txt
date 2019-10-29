@@ -1,0 +1,29 @@
+#
+# Describes the different positions of UI elements of magic mirror, 
+# which are configured under ~/MagicMirror/config/config.js
+#
+# Source:
+# https://forum.magicmirror.builders/topic/286/regions
+#
+
+fullscreen_below    -   covers whole screen, under everything else
+fullscreen_above    -   covers whole screen, above everything else 
+
+top_bar             -   full width, top
+bottom_bar          -   full width, bottom
+
+top_left            -   1/4 width, left, top
+bottom_left         -   1/4 width, left, bottom
+
+top_center          -   below top_bar, middle 2/4,
+bottom_center       -   above bottom_bar, middle 2/4
+
+top_right           -   1/4 width, right, top
+bottom_right        -   1/4 width, right, bottom
+
+upper_third         -   full width, below top_{left,right}, above middle_center
+
+middle_center       -   full width, between upper_third & lower_third
+
+lower_third         -   full width, below middle_center
+
