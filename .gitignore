@@ -1,0 +1,13 @@
+
+# ignore vim swap files
+*.swp
+
+# discard vim session files
+*.vim
+
+# unnecessary files that created when opening up a file (on Mac)
+._*
+.DS_Store
+
+
+
