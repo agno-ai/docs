@@ -26,7 +26,7 @@ Check out this [link](https://help.github.com/en/github/getting-started-with-git
 
 #### Very important, in order to pull code from original repo:
 
-(where <repo_name> is original repo name)
+(where <repo_name> is original repo name)<br>
 ```$ git remote add upstream git@github.com:agno-ai/<repo_name>```
 
 
@@ -58,18 +58,15 @@ Work on your code...
 ```$ git merge upstream/master```
 
 
-#### add your changes
-
+#### Add your changes
 ```$ git add .```
 
 
-#### create a commit with a message
-
+#### Create a commit with a message
 ```$ git commit -m "Add a mandatory message"```
 
 
-#### push your code
-
+#### Push your code
 ```$ git push ```
 
 
