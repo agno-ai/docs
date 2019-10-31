@@ -9,34 +9,24 @@ Check out this [link](https://help.github.com/en/github/getting-started-with-git
 
 ## One-time setup 
 
-#### Globally configure your username (if not done so already)
-
+#### Globally configure your username (if not done so already):
 ```$ git config --global user.name "Your Name here"```
 
-
-#### Golbally configure your email of github account (if not done so already)
-
+#### Golbally configure your email of github account (if not done so already):
 ```$ git config --global user.email "your_email@domainname.com"```
 
 
-#### Cloning via ssh (pattern: <i>git@github.com:your_username/forked_repo_name</i>)
-
+#### Cloning via ssh (pattern: <i>git@github.com:your_username/forked_repo_name</i>):
 ```$ git clone <repository_name>```
 
-
 #### Very important, in order to pull code from original repo:
-
 (where <repo_name> is original repo name)<br>
 ```$ git remote add upstream git@github.com:agno-ai/<repo_name>```
 
-
-#### Then fetching changes from original repo
-
+#### Then fetching changes from original repo:
 ```$ git fetch upstream```
 
-
-#### Finally merging changes from original repo with forked repo
-
+#### Finally merging changes from original repo with forked repo:
 ```$ git merge upstream/master```
 
 
@@ -44,29 +34,22 @@ Check out this [link](https://help.github.com/en/github/getting-started-with-git
 
 Work on your code...
 
-#### Pull local changes
-
+#### Pull local changes:
 ```$ git pull```
 
-#### Pull changes from original repo
-
+#### Pull changes from original repo:
 ```$ git fetch upstream```
 
-
-#### Merge changes from original repo into local forked repo
-
+#### Merge changes from original repo into local forked repo:
 ```$ git merge upstream/master```
 
-
-#### Add your changes
+#### Add your changes:
 ```$ git add .```
 
-
-#### Create a commit with a message
+#### Create a commit with a message:
 ```$ git commit -m "Add a mandatory message"```
 
-
-#### Push your code
+#### Push your code:
 ```$ git push ```
 
 
