@@ -1,19 +1,14 @@
-#
 # Describes how to use notifications
-#
 
-
-
-######### For sending ###########
+## For sending 
 Call this when needed:
-    self.sendNotification("MMM_MODULE_NAME", <payload (AnyObject)>);
+> ```self.sendNotification("MMM_MODULE_NAME", <payload (AnyObject)>);```
 
-Example, send notification after 3sec (3000 milli):
-    setTimeout(function(){self.sendNotification("MMM_TESTERONI_NOTIFICATION", "Joe Mama");}, 3000);
+<b>Example</b>, send notification after 3sec (3000 milli):
+> ```setTimeout(function(){self.sendNotification("MMM_TESTERONI_NOTIFICATION", "Joe Mama");}, 3000);```
 
-
-######### Receiving #############
-
+## Receiving
+```
 Module.register("MMM_MODULE_NAME",{
 
     //...
@@ -30,4 +25,4 @@ Module.register("MMM_MODULE_NAME",{
 
     //...
 }
-
+```
