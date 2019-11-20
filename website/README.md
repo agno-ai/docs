@@ -1,2 +1,2 @@
-# stats
-Documentation for the agno stats
+# Website
+Documentation for the agno website.
