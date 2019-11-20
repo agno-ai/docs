@@ -1,6 +1,4 @@
-#
 # Creating a basic module 
-#
 
 1. Create folder in ~/MagicMirror/modules/ , e.g. "MMM-Testproject"
 2. cd into "MMM-Testproject"
