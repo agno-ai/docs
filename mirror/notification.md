@@ -1,4 +1,4 @@
-# Describes how to use notifications
+# How to use notifications
 
 ## For sending 
 Call this when needed:
